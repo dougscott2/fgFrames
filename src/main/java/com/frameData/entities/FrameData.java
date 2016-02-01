@@ -30,12 +30,23 @@ public class FrameData {
     public int recovery;
 
     @Column(nullable = false)
-    public int onBlock;
+    public int total;
 
     @Column(nullable = false)
-    public int onWhiff;
+    public int hitStop;
+
+    @Column(nullable = false)
+    public int hitAdvantage;
+
+    @Column(nullable = false)
+    public int blockAdvantage;
+
+    @Column(nullable = false)
+    public int damage;
+
+    @Column(nullable = false)
+    public int stun;
 
     @ManyToOne
     fighter character;
-
 }
