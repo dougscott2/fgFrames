@@ -1,9 +1,6 @@
 package com.frameData.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.HashMap;
 
 /**
@@ -20,4 +17,6 @@ public class fighter {
     public String characterName;
 
 
+    @OneToMany
+    FrameData frameData;
 }
