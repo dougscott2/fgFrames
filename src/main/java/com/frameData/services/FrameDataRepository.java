@@ -9,4 +9,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 public interface FrameDataRepository extends PagingAndSortingRepository<FrameData, Integer> {
     FrameData findOneById(int id);
     FrameData findOneByName(String moveName);
+
 }
