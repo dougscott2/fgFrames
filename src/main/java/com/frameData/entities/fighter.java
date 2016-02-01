@@ -19,6 +19,5 @@ public class fighter {
     @Column(nullable = false)
     public String characterName;
 
-    @Column(nullable = false)
-    public HashMap<String, Integer> frameData;
+
 }
