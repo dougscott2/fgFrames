@@ -7,4 +7,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  * Created by DrScott on 2/2/16.
  */
 public interface FighterRepository extends PagingAndSortingRepository<Fighter, Integer> {
+
 }
