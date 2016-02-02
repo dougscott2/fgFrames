@@ -1,15 +1,12 @@
 package com.frameData.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by DrScott on 2/2/16.
  */
 @Entity
-public class heavyMoves {
+public class HeavyMove {
     @Id
     @GeneratedValue
     @Column(nullable = false)
@@ -28,7 +25,7 @@ public class heavyMoves {
     public int recovery;
 
     @Column(nullable = false)
-    public int total = startup + recovery;
+    public int total;
 
     @Column(nullable = false)
     public int hitStop;
@@ -44,5 +41,8 @@ public class heavyMoves {
 
     @Column(nullable = false)
     public int stun;
+
+    @ManyToOne
+    public Fighter fighter;
 }
 

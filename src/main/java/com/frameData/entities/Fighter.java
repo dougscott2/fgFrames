@@ -1,9 +1,7 @@
 package com.frameData.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by DrScott on 2/2/16.
@@ -18,6 +16,14 @@ public class Fighter {
     @Column(nullable = false)
     public String characterName;
 
+    @OneToMany
+    public List<LightMove> lightMoves;
+
+    @OneToMany
+    public List<MediumMove> mediumMoves;
+
+    @OneToMany
+    public List<HeavyMove> heavyMoves;
 
 
 }
