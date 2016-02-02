@@ -48,5 +48,5 @@ public class FrameData {
     public int stun;
 
     @ManyToOne
-    fighter character;
+    public fighter character;
 }

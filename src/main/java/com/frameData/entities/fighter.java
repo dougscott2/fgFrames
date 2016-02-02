@@ -2,6 +2,7 @@ package com.frameData.entities;
 
 import javax.persistence.*;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by DrScott on 2/1/16.
@@ -18,5 +19,5 @@ public class fighter {
 
 
     @OneToMany
-    FrameData frameData;
+    public List<FrameData> moves;
 }

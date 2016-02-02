@@ -36,8 +36,13 @@ public class fgFramesController {
             fm.blockAdvantage =5;
             fm.damage = 10;
             fm.hitAdvantage = 10;
+            fm.hitStop = 10;
             fm.stun = 100;
             fm.total = fm.startUp + fm.recovery;
+            fm.character = cammy;
+            cammy.moves.add(fm);
+            frameDatas.save(fm);
+
 
 
         }
