@@ -17,13 +17,8 @@ public class Fighter {
     public String characterName;
 
     @OneToMany
-    public List<LightMove> lightMoves;
+    public List<NormalMove> lightMoves;
 
-    @OneToMany
-    public List<MediumMove> mediumMoves;
-
-    @OneToMany
-    public List<HeavyMove> heavyMoves;
 
 
 }

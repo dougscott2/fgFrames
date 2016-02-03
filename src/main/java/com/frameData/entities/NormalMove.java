@@ -3,10 +3,10 @@ package com.frameData.entities;
 import javax.persistence.*;
 
 /**
- * Created by DrScott on 2/2/16.
+ * Created by DrScott on 2/3/16.
  */
 @Entity
-public class HeavyMove {
+public class NormalMove {
     @Id
     @GeneratedValue
     @Column(nullable = false)
@@ -19,7 +19,7 @@ public class HeavyMove {
     public String input;
 
     @Column(nullable = false)
-    public int startup;
+    public int startUp;
 
     @Column(nullable = false)
     public int recovery;
@@ -43,6 +43,8 @@ public class HeavyMove {
     public int stun;
 
     @ManyToOne
-    public Fighter fighter;
+    Fighter fighter;
+
+
 }
 
