@@ -8,6 +8,6 @@ import java.util.List;
 /**
  * Created by DrScott on 2/2/16.
  */
-public interface HeavyMove extends PagingAndSortingRepository<HeavyMove, Integer> {
-    List<HeavyMove> findAllByFighter(Fighter fighter);
+public interface HeavyMoveRepository extends PagingAndSortingRepository<HeavyMoveRepository, Integer> {
+    List<HeavyMoveRepository> findAllByFighter(Fighter fighter);
 }
