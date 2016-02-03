@@ -11,5 +11,5 @@ import java.util.List;
  */
 public interface LightMoveRepository extends PagingAndSortingRepository<LightMove, Integer> {
     List<LightMove> findAllByFighter(Fighter fighter);
-    //dd
+    //ddasdf
 }
