@@ -11,4 +11,5 @@ import java.util.List;
  */
 public interface MediumMoveRepository extends PagingAndSortingRepository<MediumMove, Integer>{
     List<MediumMove> findAllByFighter(Fighter fighter);
+    //dd
 }
