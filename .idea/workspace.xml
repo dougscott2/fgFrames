@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/FighterRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/FighterRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/HeavyMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/HeavyMoveRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/LightMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/LightMoveRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/MediumMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/MediumMoveRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fgFrames.iws" />
@@ -704,7 +703,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454460491514</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test commit to just comment here">
+      <created>1454463494324</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1454463494324</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -769,7 +774,8 @@
     <MESSAGE value="added heavyMoves, lightMoves, and mediumMoves" />
     <MESSAGE value="refactored move names and linked to Fighter class" />
     <MESSAGE value="added repositories and simple SQL commands to get the move lists for each fighter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added repositories and simple SQL commands to get the move lists for each fighter" />
+    <MESSAGE value="test commit to just comment here" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit to just comment here" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

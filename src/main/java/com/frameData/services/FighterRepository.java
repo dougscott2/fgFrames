@@ -9,4 +9,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 public interface FighterRepository extends PagingAndSortingRepository<Fighter, Integer> {
     Fighter findOneByName(String name);
     Fighter findOneById(int id);
+    //f
 }
