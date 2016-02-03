@@ -43,7 +43,7 @@ public class NormalMove {
     public int stun;
 
     @ManyToOne
-    Fighter fighter;
+    public Fighter fighter;
 
 
 }

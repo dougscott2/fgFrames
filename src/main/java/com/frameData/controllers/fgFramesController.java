@@ -34,6 +34,25 @@ public class fgFramesController {
         if (normalMoves.findAllByFighter(fighters.findOneByName("Cammy")).size() == 0) {
            // File cammyNorm = new File("cammyNormals.csv");
             Scanner scanner = new Scanner(new File("cammyNormals.csv"));
+            scanner.nextLine();
+            while (scanner.hasNext()) {
+                String line = scanner.nextLine();
+                String[] columns = line.split(",");
+                NormalMove n = new NormalMove();
+
+                n.moveName = columns[0];
+                n.input = columns[1];
+                n.startUp = Integer.valueOf(columns[2]);
+                n.recovery = Integer.valueOf(columns[3]);
+                n.total = Integer.valueOf(columns[4]);
+                n.hitStop = Integer.valueOf(columns[5]);
+                n.hitAdvantage = Integer.valueOf(columns[6]);
+                n.blockAdvantage = Integer.valueOf(columns[7]);
+                n.damage = Integer.valueOf(columns[8]);
+                n.stun = Integer.valueOf(columns[9]);
+                n.fighter = fighters.findOneByName("Cammy");
+                normalMoves.save(n);
+            }
 
 
 
