@@ -10,5 +10,5 @@ import java.util.List;
  */
 public interface HeavyMoveRepository extends PagingAndSortingRepository<HeavyMoveRepository, Integer> {
     List<HeavyMoveRepository> findAllByFighter(Fighter fighter);
-    //f
+    //fasdf
 }

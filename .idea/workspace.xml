@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b298b9-f4a9-48d6-a227-d002fd1a9400" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/FighterRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/FighterRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/HeavyMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/HeavyMoveRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/LightMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/LightMoveRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frameData/services/MediumMoveRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/frameData/services/MediumMoveRepository.java" />
@@ -716,7 +715,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454463515995</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fighterRepo commit">
+      <created>1454463585015</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1454463585015</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -783,7 +788,8 @@
     <MESSAGE value="added repositories and simple SQL commands to get the move lists for each fighter" />
     <MESSAGE value="test commit to just comment here" />
     <MESSAGE value="test commit to just comment here2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit to just comment here2" />
+    <MESSAGE value="fighterRepo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fighterRepo commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
