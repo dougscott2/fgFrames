@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -23,32 +24,20 @@ public class fgFramesController {
     NormalMoveRepository normalMoves;
 
 
-
-
     @PostConstruct
-    public void init(){
-        if (fighters.count() == 0 ){
+    public void init() throws FileNotFoundException {
+        if (fighters.count() == 0) {
             Fighter fighter = new Fighter();
             fighter.characterName = "Cammy";
             fighters.save(fighter);
         }
-        if(normalMoves.findAllByFighter(fighters.findOneByName("Cammy")).size() == 0 ){
-            Scanner scanner = new Scanner(new File("/Users/DrScott/IdeaProjects/fgFrames/cammyNormals.csv"));
-            scanner.nextLine();
-            while (scanner.hasNext()) {
-                String line = scanner.nextLine();
-                String[] columns = line.split(",");
-                NormalMove n = new NormalMove();
-
-                n.moveName = columns[0];
-                n.input = columns[1];
+        if (normalMoves.findAllByFighter(fighters.findOneByName("Cammy")).size() == 0) {
+           // File cammyNorm = new File("cammyNormals.csv");
+            Scanner scanner = new Scanner(new File("cammyNormals.csv"));
 
 
 
         }
 
-
-
-    }
-
+    }//end init
 }
